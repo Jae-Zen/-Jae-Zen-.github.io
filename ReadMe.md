@@ -7,8 +7,7 @@ Reference guide (Google Slides): [4e Creating a portfolio in Github Pages (HTML 
 
 # Example portfolio pages
 
-- Dan Vine (based on Bootstrap Resume template)
-- [Portfolio Template](https://portfolio-template.surge.sh/)
+- Dan Vine (based on Bootstrap Resume template)(https://portfolio-template.surge.sh/)
 - [Dev Portfolio](https://ryanfitzgerald.github.io/devportfolio/)
 - [Bill Martin](http://billmartin.io/) (based on Freelancer theme)
 

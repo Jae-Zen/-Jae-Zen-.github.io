@@ -1,275 +1,119 @@
 <!DOCTYPE html>
-<html>
-<!-- https://replit.com/@nyjc-computing/HTML-CSS-Intro -->
-<head>
-<meta charset="utf-8">
-<title>My Portfolio</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<style>
-    h2 {
-        font-style: italic;
-    }
+<html lang="en">
 
-    .skill-list {
-        color: blue;
-    }
-</style>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Chong Jae Zen's Portfolio
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
-<header>
-    <ul id="menu" class="shadow" style="">
-        <li>
-            <a href="#about" class="navlink">About</a>
-        </li>
-        <li>
-            <a href="#experience" class="navlink">Experience</a>
-        </li>
-        <li>
-            <a href="#education" class="navlink">Education</a>
-        </li>
-        <li>
-            <a href="#projects" class="navlink">Projects</a>
-        </li>
-        <li>
-            <a href="#skills" class="navlink">Skills</a>
-        </li>
-        <li>
-            <a href="#contact" class="navlink">Contact</a>
-        </li>
-    </ul>
-</header>
-<!-- End header -->
 
-<div id="lead">
-    <div id="lead-content">
-      bold1 style="font-weight: bold;">Ryan Fitzgerald</h1>
-        <h2>Software Engineer</h2>
-        <a href="#" class="btn-rounded-white">Download Resume</a>
-        <a href="#education"> Jump to Education</a>
-    </div>
-    <!-- End #lead-content -->
+  <!-- ***** Header ***** -->
 
-    <div id="lead-overlay"></div>
-
-    <div id="lead-down">
-        <span>
-            <i class="fa fa-chevron-down" aria-hidden="true"></i>
-        </span>
-    </div>
-    <!-- End #lead-down -->
-</div>
-<!-- End #lead -->
-
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div>
-                <h2>About Me</h2>
-            </div>
-            <div>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                    eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                    ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End #about -->
-
-<hr />
-
-<div id="experience" class="background-alt">
-    <h2 class="heading">Experience</h2>
-    <div id="experience-timeline">
-        <div data-date="September 2015 – September 2016">
-            <h3>Employer Name</h3>
-            <h4 class="job-title">Job Title</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
-        </div>
-
-        <div data-date="September 2015 – September 2016">
-            <h3>Employer Name</h3>
-            <h4 class="job-title">Job Title</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
-        </div>
-
-        <div data-date="September 2015 – September 2016">
-            <h3>Employer Name</h3>
-            <h4 class="job-title">Job Title</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
-        </div>
-    </div>
-</div>
-<!-- End #experience -->
-
-<div id="education">
-    <h2 class="heading">Education</h2>
-    <div class="education-block">
-        <h3>University of Ottawa</h3>
-        <span class="education-date">Sept 2016 - Sept 2017</span>
-        <h4>Bachelor of Science in Computer Science</h4>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-        </p>
-    </div>
-    <!-- End .education-block -->
-
-    <div class="education-block">
-        <h3>University of Ottawa</h3>
-        <span class="education-date">Sept 2016 - Sept 2017</span>
-        <h4>Bachelor of Science in Computer Science</h4>
-        <ul>
-            <li>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </li>
-            <li>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </li>
-            <li>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </li>
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
         </ul>
+      </nav>
     </div>
-    <!-- End .education-block -->
-</div>
-<!-- End #education -->
-
-<div id="projects" class="background-alt">
-    <h2 class="heading">Projects</h2>
-    <div class="container">
-        <div class="row">
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/project.png" />
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Project Name Here</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                    </p>
-                    <a href="#">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-
-            <div class="project shadow-large">
-
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Project Name Here</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                    </p>
-                    <a href="#">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-        </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Chong Jae Zen</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>A student in Nanyang Junior College</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
     </div>
-</div>
-<!-- End #projects -->
+  </header>
 
-<div id="skills">
-    <h2 class="heading">Skills</h2>
-    <ul class="skill-list">
-        <li>JavaScript</li>
-        <li>Python</li>
-        <li>Ruby</li>
-        <li>Go</li>
-        <li>Node.js</li>
-        <li>AngularJs</li>
-        <li>React</li>
-        <li>Elixir</li>
-        <li>Java</li>
-        <li>C</li>
-        <li>C#</li>
-        <li>C++</li>
-        <li>Ruby on Rails</li>
-        <li>JavaScript</li>
-        <li>Python</li>
-        <li>Ruby</li>
-        <li>Go</li>
-        <li>Node.js</li>
-        <li>AngularJs</li>
-        <li>React</li>
-        <li>Elixir</li>
-        <li>Java</li>
-        <li>C</li>
-        <li>C#</li>
-        <li>C++</li>
-        <li>Ruby on Rails</li>
-    </ul>
-</div>
-<!-- End #skills -->
+  <main role="main">
 
-<div id="contact">
-    <h2>Get in Touch</h2>
-    <div id="contact-form">
-        <form method="POST" action="https://formspree.io/email@email.com">
-            <input type="hidden" name="_subject" value="Contact request from personal website" />
-            <input type="email" name="_replyto" placeholder="Your email" required>
-            <textarea name="message" placeholder="Your message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Text-Based Dungeon Game</h3>
+              <img src="realmulti.png" alt="Realmulti" height=75% width=75%>
+              <p>"Realmulti" is an immersive text-based adventure game where the nefarious Voldemort, the primary antagonist, employs his dark powers to craft interdimensional portals that link various gaming universes together. As the protagonist of this captivating narrative, players embark on a journey to thwart Voldemort's sinister plans.</p>
+
+                
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>Jae Zen is exceptionally proficient in both computing and his academic studies, showcasing an impressive blend of technical prowess and intellectual acumen. In the realm of computing, he demonstrates a remarkable mastery of programming languages, system architectures, and problem-solving skills. His coding abilities are not only efficient but also reflect a deep understanding of algorithms and data structures. Moreover, John excels in his academic pursuits, consistently achieving high grades and demonstrating a keen analytical mind in various subjects. His dedication to learning is evident in his meticulous approach to studies, where he not only grasps complex concepts swiftly but also applies them with precision. John's proficiency in both computing and academics not only sets him apart but also highlights his commitment to excellence in every facet of his educational journey.
+            </p>
+
+            <h3>O Level Results</h3>
+
+            <p>Raw: 9</p>
+
+            <ul class="o-level results">
+                  <li>Physics: A1</li>
+                  <li>Chemistry: A2</li>
+                  <li>Computng: A2</li>
+                  <li>English: A1</li>
+                  <li>Math: A1</li>
+                  <li>A Math: A1</li>
+                  <li>Geography/Social Studies: A1</li>
+                
+            </ul>
+            <!-- Provide a link to your resume -->
+
+
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+        Are you looking for an exceptionally talented individual to enrich your university community? Look no further than Jae Zen, a standout candidate whose proficiency in computing and exemplary academic achievements make him an ideal fit for your esteemed institution. With a proven mastery of programming languages, system architectures, and adept problem-solving skills, Jae Zen brings a unique set of technical talents crucial in navigating the complexities of today's technological landscape. His academic record, marked by consistently high grades and a keen analytical mind, reflects not only his aptitude for learning but also his commitment to academic excellence. By admitting Jae Zen into your university, you not only gain a promising student but also welcome a dedicated individual poised to contribute meaningfully to the university's computing programs and academic community.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="chong.jae.zen_2324@nyjc.edu.sg" class="btn">chong.jae.zen_2324@nyjc.edu.sg</a>
+      </div>
     </div>
-    <!-- End #contact-form -->
-</div>
-<!-- End #contact -->
+  </section>
 
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-5 copyright">
-                <p>
-                    Copyright &copy; 2023 YOUR NAME
-                </p>
-            </div>
-            <div class="col-sm-2 top">
-                <span id="to-top">
-                    <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                </span>
-            </div>
-            <div class="col-sm-5 social">
-                <ul>
-                    <li>
-                        <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true">GitHub</i></a>
-                    </li>
-                    <li>
-                        <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true">Stack Overflow</i></a>
-                    </li>
-                    <li>
-                        <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true">Linked-In</i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true">Facebook</i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true">Twitter</i></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true">Google Plus</i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- End footer -->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="js/scripts.min.js"></script>
+  
 </body>
 
-</html>
+</html><!DOCTYPE html>
